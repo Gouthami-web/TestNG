@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21603" started-at="2021-05-11T09:50:47Z" finished-at="2021-05-11T09:51:09Z">
+    <groups>
+      <group name="test">
+        <method signature="Test_cases.testcase1()[pri:0, instance:com.javatpoint.Test_cases@74ad1f1f]" name="testcase1" class="com.javatpoint.Test_cases"/>
+        <method signature="Test_cases.testcase2()[pri:0, instance:com.javatpoint.Test_cases@74ad1f1f]" name="testcase2" class="com.javatpoint.Test_cases"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="Test" duration-ms="6777" started-at="2021-05-11T09:50:47Z" finished-at="2021-05-11T09:50:54Z">
+      <class name="com.javatpoint.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.javatpoint.Login@1a1d6a08]" name="login" duration-ms="6747" started-at="2021-05-11T09:50:47Z" finished-at="2021-05-11T09:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="home()[pri:0, instance:com.javatpoint.Login@1a1d6a08]" name="home" duration-ms="0" started-at="2021-05-11T09:50:54Z" depends-on-methods="com.javatpoint.Login.login" finished-at="2021-05-11T09:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- com.javatpoint.Login -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="14746" started-at="2021-05-11T09:50:54Z" finished-at="2021-05-11T09:51:09Z">
+      <class name="com.javatpoint.Cowin">
+        <test-method status="PASS" signature="launchCowin()[pri:0, instance:com.javatpoint.Cowin@6121c9d6]" name="launchCowin" is-config="true" duration-ms="6406" started-at="2021-05-11T09:50:54Z" finished-at="2021-05-11T09:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCowin -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.javatpoint.Cowin@6121c9d6]" name="signIn" duration-ms="8338" started-at="2021-05-11T09:51:00Z" finished-at="2021-05-11T09:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- com.javatpoint.Cowin -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="13" started-at="2021-05-11T09:51:09Z" finished-at="2021-05-11T09:51:09Z">
+      <class name="com.javatpoint.Test_cases">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.javatpoint.Test_cases@74ad1f1f]" name="testcase1" duration-ms="0" started-at="2021-05-11T09:51:09Z" finished-at="2021-05-11T09:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.javatpoint.Test_cases@74ad1f1f]" name="testcase2" duration-ms="0" started-at="2021-05-11T09:51:09Z" finished-at="2021-05-11T09:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="test_to_success()[pri:0, instance:com.javatpoint.Test_cases@74ad1f1f]" name="test_to_success" duration-ms="2" started-at="2021-05-11T09:51:09Z" finished-at="2021-05-11T09:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_to_success -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.javatpoint.Test_cases@74ad1f1f]" name="testcase3" duration-ms="0" depends-on-groups="test" started-at="2021-05-11T09:51:09Z" finished-at="2021-05-11T09:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- com.javatpoint.Test_cases -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
